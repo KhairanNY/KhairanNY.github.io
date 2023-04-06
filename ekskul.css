@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.konten {
+    background-image: url(assets/kegiatan1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 900px;
+}
+
+.logo img{
+    padding: 10px;
+    width: 600px;
+    max-width: 90%;
+    /* background-color: blue; */
+}
+
+.atas {
+    padding: 15px;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.atas ul{
+    padding: 15px;
+    /* background-color: green; */
+    max-width: 100%;
+}
+
+.atas li{
+    /* background-color: yellow; */
+    display: inline;
+    padding: 20px;
+}
+
+.atas a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.atas li a:hover{
+    padding: 5px;
+    background-color: black;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.ikonten {
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: 300px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.bg {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.isi {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.eks {
+    padding: 20px;
+    max-width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    margin: 25px;
+}
+
+.eks img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.judul {
+    font-weight: bolder;
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.footer {
+    width: auto;
+    height: auto;
+    background-color: brown;
+}
+
+.kontak {
+    margin: 10px;
+}
+
+.kkiri {
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+}
+
+.tkiri {
+    display: inline;
+    margin: 10px;
+}
+
+.tkiri a {
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+.icon img {
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.antara {
+    display: flex;
+}
+
+.sosmed {
+    margin-top: 80px;
+    margin: auto;
+    text-align: right;
+}
+
+.isisos {
+    padding: 20px;
+    display: flex;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.cr {
+    text-align: center;
+    color: white;
+}
