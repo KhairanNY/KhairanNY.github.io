@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: #C93B3B;
+    height: 80px;
+}
+
+.lmenu {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+
+.ul1 {
+    text-align: right;
+    padding: 30px;
+    margin-top: -85px;
+
+}
+
+.lmenu:hover {
+    color: darkgray;
+    transition: 1s;
+}
+
+.logo img{
+    width: 500px;
+    padding: 10px; 
+    padding-left: 50px;
+}
+
+.konten {
+    background-image: url(assets/kegiatan1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+}
+
+.smk {
+    padding:15px; 
+    margin-top: 200px; 
+    text-align: center; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(255, 255, 255, 0.6);
+
+}
+
+.isi {
+    background-image: url(assets/gambar3.HEIC);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.judul {
+    font-weight: bolder;
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.fotokeg {
+    width: auto;
+}
+
+.jrsn {
+    padding: 50px;
+    padding-bottom: 300px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 80px;
+}
+
+.jrsn1 {
+    border-radius: 10px;
+    padding-bottom: 200px;
+    padding: 100px;
+    background-color: white;
+    
+}
+
+/* .fotokeg1 {
+    width: 400px;
+    padding: 10px;
+} */
+
+.media {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.footer {
+    width: auto;
+    background-color: #C93B3B;
+    color: white;
+    font-size: 120%;
+    margin-top: 150px;
+}
+
+.cr {
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center; 
+    padding: 100px;
+    padding-bottom: 30px;
+    font-size: medium;
+}
+
+.kontak {
+    display: flex;
+    flex-direction: column;
+}
+
+.isikontak {
+    display: flex;
+}
+
+.isikontak img{
+    border-radius: 10px; 
+    width: 50px;
+}
+
+.teks a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sosmed {
+    margin-right: 40px;
+    flex-direction: column;
+}
+
+.isisosmed {
+    display: flex;
+}
+
+.isisosmed img {
+    border-radius: 10px;
+    width: auto;
+    display: flex;
+}
+
+.between {
+    height: auto;
+    width: auto;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
